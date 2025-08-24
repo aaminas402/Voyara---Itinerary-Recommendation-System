@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyADF48lxNeI3U3TIg0F7vRMGR7f4kBNcr4"  # Replace with your actual API key
+GEMINI_API_KEY = "aaaaaa"  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
@@ -93,4 +93,5 @@ def generate_itinerary():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
+
     app.run(port=5000) 
