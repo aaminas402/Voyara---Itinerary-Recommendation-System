@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "fullName": "John Doe",
+            "email": "john@example.com",
+            "password": "hashedPassword123",
+            "phoneNumber": "+1234567890",
+            "dateRegistered": "2024-03-30T10:00:00Z"
+        },
+        {
+            "id": "1743329182005",
+            "fullName": "Ananthu Suresh",
+            "email": "ananthuappu0404@gmail.com",
+            "password": "pbkdf2:sha256:260000$mVr2VMruSopyVMH0$5938ac318355e260d7ab5083c6a48bdbb7974b906eb7ce8499c3393604765576",
+            "phoneNumber": "08089639697",
+            "dateRegistered": "2025-03-30T15:36:22.835854"
+        },
+        {
+            "id": "1743332835199",
+            "fullName": "Ammachi",
+            "email": "ammachi@gmail.com",
+            "password": "pbkdf2:sha256:260000$xu9AnnZZrEAntmxM$7eac716293e0c10d834cef011ae9cb67a5e98b1d8f6bf0cf8b29f8722251a917",
+            "phoneNumber": "99999999999",
+            "dateRegistered": "2025-03-30T16:37:15.972555"
+        }
+    ]
+}
